@@ -37,6 +37,6 @@ public class User {
         this.email = dto.email();
         this.password = dto.password();
         this.balance = dto.balance();
-        this.type = dto.userType();
+        this.type = dto.type();
     }
 }
